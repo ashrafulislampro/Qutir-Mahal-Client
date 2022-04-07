@@ -3,8 +3,8 @@ import { Alert, Spinner } from 'react-bootstrap';
 import { Link, useHistory } from 'react-router-dom';
 import NavBar from '../../Shared/NavBar/NavBar';
 import useAuth from '../Hooks/useAuth';
-
 import './register.css';
+
 const Register = () => {
     const [loginData, setLoginData] = useState({});
     const { user, registerUser, isLoading, authError } = useAuth();
